@@ -14,9 +14,8 @@ public class ClaseString {
    
     public static void main(String[] args) {
         
-        //cambio x
-        String s = "adrian.com";
-        
+        String s = "yo.com";
+        // Hola 
       
         System.out.println("Tamaños: " + s.length());
         
@@ -31,7 +30,7 @@ public class ClaseString {
         // Obtener subcadena desde el caracter i-ésimo hasta el 
         // caracter j-ésimo de la cadena
         subcadena = s.substring(8,15);
-        System.out.println("SubString = " + subcadena);
+        System.out.println("Subcadena = " + subcadena);
         
         // Concatenar cadenas. Equivale al operador +
         String s1 = "ies";
